@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Inspirations</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- (1) Header Area -->
+     <header>
+        <h1>Interior Inspirations</h1>
+     </header>
+     <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+     </nav>
+
+    <!-- (2) Banner Area -->
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Transform your space</h1>
+          <p>Inspire your style with ceautiful interiors</p>
+        </div>  
+      </section>
+
+    <!-- (3) Section Area -->
+     <!-- featured -->
+      <section class="section" id="featured">
+         <h2>Featured Items</h2>
+           <div class="category-box">
+             <h3>Sofas</h3>
+             <div class="item">
+               <img src="assets/images2/Elegant Sofa1.jpg" alt="Elegant Sofa">
+               <p>Elegant Sofa</p>
+             </div>
+             <div class="item">
+               <img src="assets/images2/Modern Sofa2.png" alt="Modern Sofa">
+               <p>Modern Style</p>
+             </div>
+             <div class="item">
+               <img src="assets/images2/Classic Sofa1.webp" alt="Classic Sofa">
+               <p>Classic Comfort</p>
+             </div>
+           </div>
+           <div class="category-box">
+             <h3>Lamps</h3>
+             <div class="item">
+               <img src="assets/images2/lamp header.jpg" alt="Vintage Lamp">
+               <p>Vintage Lamp</p>
+             </div>
+             <div class="item">
+               <img src="assets/images2/Modern Lamp1.jpg" alt="Modern Lamp">
+               <p>Modern Glow</p>
+             </div>
+             <div class="item">
+               <img src="assets/images2/Lamp3.jpg" alt="Artistic Lamp">
+               <p>Artistic Light</p>
+             </div>
+           </div>
+           <div class="category-box">
+             <h3>Tables</h3>
+             <div class="item">
+               <img src="assets/images2/Wooden Table1.png" alt="Dining Table">
+               <p>Wooden Table</p>
+             </div>
+             <div class="item">
+               <img src="assets/images2/table1.jpg" alt="Minimal Table" class="contain">
+               <p>Minimalist Design</p>
+             </div>
+             <div class="item">
+               <img src="assets/images2/Glass Table1.webp" alt="Glass Table">
+               <p>Modern Glass</p>
+             </div>
+           </div>
+         <div style="clear: both;"></div>
+      </section>
+    <!-- Japanese Interior -->
+      <section class="japanese-style">
+        <h2>Japanese Interior Inspirations</h2>
+        <p>Experience the serenity and elegance of traditional Japanese design, where simplicity meets natural beauty.</p>
+     
+       <div class="category-box-jp">
+          <h3>Tatami</h3>
+          <div class="item-jp">
+            <img src="assets/images2/tatami1.jpg" alt="Tatami Room 1">
+            <p>Traditional Tatami Room</p>
+          </div>
+          <div class="item-jp">
+            <img src="assets/images2/tatami3.jpg" alt="Tatami Room 2">
+            <p>Natural Light and Tatami</p>
+          </div>
+          <div class="item-jp">
+            <img src="assets/images2/tatami4.jpg" alt="Tatami Room 3">
+            <p>Serene Minimalist Space</p>
+          </div>
+       </div>
+
+       <div class="category-box-jp">
+         <h3>Shoji</h3>
+         <div class="item-jp">
+           <img src="assets/images2/shoji5.jpeg" alt="Shoji 1">
+           <p>Shoji with Natural Light</p>
+         </div>
+         <div class="item-jp">
+           <img src="assets/images2/shoji6.jpg" alt="Shoji 2">
+           <p>Modern Shoji Design</p>
+         </div>
+         <div class="item-jp">
+           <img src="assets/images2/shoji4.jpg" alt="Shoji 3">
+           <p>Light and Privacy</p>
+         </div>
+       </div>
+
+       <div class="category-box-jp">
+         <h3>Tansu & Traditional Storage</h3>
+         <div class="item-jp">
+           <img src="assets/images2/JP Chest1.jpg" alt="Antique Tansu Chest">
+           <p>Antique Tansu Chest</p>
+         </div>
+         <div class="item-jp">
+           <img src="assets/images2/JP Chest2.jpg" alt="Mizuya Cabinet">
+           <p>Mizuya Kitchen Cabinet</p>
+         </div>
+         <div class="item-jp">
+           <img src="assets/images2/JP Chest4.jpg" alt="Modern Fusion Tansu">
+           <p>Modern Fusion Tansu</p>
+         </div>
+       </div>
+    
+       <div style="clear: both;"></div>
+      </section>
+
+      <!-- (4) Reservation Area -->
+      <section class="reservation">
+        <div class="reservation-container">
+          <!-- 左：予約フォーム -->
+          <div class="reservation-left">
+            <h3>Book a Design Consultation</h3>
+            <br>
+            <p>Looking to transform your space? Send us your details and preferences. We’ll be in touch shortly!</p>
+            <br>
+            <form class="reservation-form">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="John Doe" required>
+      
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="you@example.com" required>
+      
+              <label for="date">Preferred Date</label>
+              <input type="date" id="date" required>
+      
+              <label for="design-type">Design Type</label>
+              <select id="design-type" required>
+                <option value="">Select a style</option>
+                <option value="modern">Modern</option>
+                <option value="japanese">Japanese Traditional</option>
+                <option value="minimal">Minimalist</option>
+                <option value="other">Other</option>
+              </select>
+      
+              <label for="message">Your Message</label>
+              <textarea id="message" rows="5" placeholder="Let us know your ideas or specific needs..."></textarea>
+      
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+      
+          <!-- 右：SNS & 店舗情報 -->
+          <div class="reservation-right">
+            <h3>Visit Our Studio</h3>
+            <p>Interior Inspirations Studio<br>123 Zen Street<br>Kyoto, Japan</p>
+            <p><strong>Hours:</strong><br>Mon-Sat: 10:00-18:00<br>Sun: Closed</p>
+      
+            <div class="social-icons">
+              <a href="https://www.instagram.com" target="_blank">
+                <img src="assets/images2/ig.avif" alt="Instagram" class="sns-icon">
+              </a>  
+              <a href="https://www.facebook.com" target="_blank">
+                <img src="assets/images2/new-fb-icon.avif" alt="Facebook" class="sns-icon">
+              </a>
+              <a href="https://www.twitter.com" target="_blank">
+                <img src="assets/images2/new-X-icon.png" alt="Twitter" class="sns-icon">
+              </a>  
+            </div>
+          </div>
+          <div style="clear: both;"></div>
+        </div>
+      </section>
+
+      <!-- (5) Footer Area -->
+       <footer class="footer">
+         <p>&copy; 2025 Interior Inspirations</p>
+       </footer>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
